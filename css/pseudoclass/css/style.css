@@ -1,0 +1,25 @@
+a{
+	font-size:40px;
+	
+}
+a:link{
+	color:red;
+}
+a:visited{
+	color:orange;
+}
+a:hover{
+	color:green;
+}
+a:active{
+	color:pink;
+}
+div{
+	border:1px solid;
+	padding:20px;
+	text-align:center;
+	background-color:green;
+}
+div:hover{
+	background-color:blue;
+}

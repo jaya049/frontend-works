@@ -1,0 +1,8 @@
+.a{
+	border:15px solid;
+	box-sizing:border-box;
+	width:300px;
+	background-color:lightgrey;
+	padding:50px;
+	margin:20px;
+}

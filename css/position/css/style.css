@@ -1,0 +1,16 @@
+.r{
+	border:1px solid;
+	width:400px;
+	height:500px;
+	position:relative;
+}
+.a{
+	border:1px solid;
+	width:100px;
+	height:150px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	bottom:0px;
+	right:0px;
+}

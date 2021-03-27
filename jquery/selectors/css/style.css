@@ -1,0 +1,11 @@
+div{
+	border:1px solid;
+	margin:10px;
+}
+.box{
+	position:absolute;
+	background-color:yellow;
+	height:70px;
+	width:70px;
+	opacity:.4;
+	}

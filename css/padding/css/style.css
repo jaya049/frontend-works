@@ -1,0 +1,17 @@
+h2{
+	border:1px solid;
+	padding:40px;
+	word-spacing:20px;
+	text-shadow:20px;
+}
+a{
+	border:1px solid;
+	padding:40px 30px 20px 10px;
+}
+
+p{
+	text-align:justify;
+	text-indent:50px;
+	line-height:1.8;
+}
+

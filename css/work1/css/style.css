@@ -1,0 +1,27 @@
+a{
+	
+	text-decoration:none;
+	font-size:30px;
+	color:yellow;
+	padding:40px;
+	
+}
+nav{
+	background-color:black;
+	text-align:center;
+	padding:40px;
+}
+div{
+	border:8px solid;
+	border-color:red;
+	width:40%;
+	padding:20px;
+	margin-left:350px;
+	padding-top:20px;
+	margin-top:10px;
+	
+}
+p{
+	text-align:justify;
+	font-size:20px;
+}

@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>sample_site</title>
+	<style>
+	table,td,th{
+			border:1px solid;
+			border-collapse:collapse;
+			text-align:center;
+			padding:10px;
+			width:25%;
+			}
+	p{
+		color:red;
+		}
+	.a{
+		color:green;
+		}
+	
+</style>
+</head>
+<body>
+
+<table>
+	<thead>
+	<tr style="background-color:lightblue">
+		<th><p>Head 1</p></th>
+		<th><p>Head 2</p></th>
+		<th><p>Head 3</p></th>
+		<th><p>Head 4</p></th>
+		
+	</tr>	
+	</thead>
+	
+	<tbody style="background-color:pink">
+		<tr>
+		<td>Apple</td>
+		<td>Ball</td>
+		<td>Cat</td>
+		<td rowspan="2"><ol>
+				<li>A</li>
+				<li>B</li>
+				<li>C</li></ol></td>
+		</tr>
+		
+		<tr>
+		<td rowspan="2"><ul>
+				<li>A</li>
+				<li>B</li>
+				<li>C</li></ul></td>	
+		<td rowspan="">C</td>
+		<td rowspan="">D</td>
+		
+				
+		</tr>
+		<tr>
+			
+			<td>E</td>
+			<td>F</td>
+			<td>K</td>
+		</tr>
+		
+		<tr>
+			<td>G</td>
+			<td>H</td>
+			<td>I</td>
+			<td>J</td>
+		</tr>
+	</tbody>
+		
+	<tfoot>
+		<tr style="background-color:lightgreen">
+			<td colspan="4"><p class="a">ORISYS ACADEMY<p></td>
+		</tr>
+	</tfoot>
+		
+	
+	
+</table>
+</body>
+</html>

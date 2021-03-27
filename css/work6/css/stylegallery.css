@@ -1,0 +1,38 @@
+body{
+	background-color:rgba(0,0,0,.2);
+}
+.gal{
+	text-align:center;
+	
+	
+	
+}
+.gal img{
+	width:300px;
+	height:150px;
+	margin:30px;
+	box-shadow:10px 10px 5px gray;
+	filter:grayscale(100%);
+	transition:1s;
+}
+
+.gal img:hover{
+	filter:grayscale(0%);
+	transform:scale(1.2);
+	cursor:pointer;
+
+}
+@media screen and (max-width:992px){
+	body{
+		color:red;
+	}
+	.gal{
+		text-align:left;
+	}
+	.gal img{
+		margin:30px;
+		padding:20px;
+		
+	}
+	
+}
